@@ -1,0 +1,4 @@
+﻿  game.cpp
+game.obj : error LNK2019: unresolved external symbol _NFD_OpenDialog referenced in function "public: class std::unique_ptr<class Puzzle,struct std::default_delete<class Puzzle> > __thiscall LevelLoader::nextFromDialog(void)" (?nextFromDialog@LevelLoader@@QAE?AV?$unique_ptr@VPuzzle@@U?$default_delete@VPuzzle@@@std@@@std@@XZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Mike\Downloads\puzzle\puzzle\Debug\puzzle.exe : fatal error LNK1120: 2 unresolved externals
